@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .admission {
+            display: flex;
+            justify-content: center;
+        }
+
+        .admission-form {
+            display: flex;
+            flex-direction: column;
+        }
+
+        /* select by attribute */
+        input[type="text"] {
+            border: 1px solid green;
+        }
+
+        input[type="password"] {
+            border: 1px solid red;
+        }
+
+        /* Select all input tags where type is not checkbox */
+        input:not([type="checkbox"]) {
+            font-size: 1.2em;
+        }
+    </style>
+</head>
+
+<body>
+    <section class="admission">
+        <form action="" class="admission-form">
+            <h3>Welcome to your School</h3>
+            <input type="text" name="" id="" placeholder="Your Name">
+            <input type="text" name="" id="" placeholder="Your Father Name">
+            <input type="text" name="" id="" placeholder="Your Mother Name">
+            <input type="email" name="" id="" placeholder="Your Email">
+            <input type="password" name="" id="" placeholder="Your Password">
+            <input type="password" name="" id="" placeholder="Confirm Password">
+            <label for=""><input type="checkbox" name="" id="">Do you need a certificate</label>
+        </form>
+    </section>
+</body>
+
+</html>
